@@ -20,3 +20,13 @@ git status
 git restore testing.py
 git status
 clear
+git status
+git add git_command.txt
+git status
+git commit -m "Added git command"
+git status
+git remote add origin https://github.com/SonuT18/Git-Hub-Devops.git
+git remote -v
+git remote set-url origin https://personal-Access-token-paste-here-from-git-hub@github.com/SonuT18/Git-Hub-Devops.git
+git remote -v
+git push origin master
