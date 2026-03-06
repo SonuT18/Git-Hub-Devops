@@ -1,6 +1,15 @@
-def hello():
+"""
+Testing module for demo program.
+"""
+
+
+def test_message():
     """
-    this is demo
+    Print a greeting message.
     """
-    return "Hello Dosto"
-hello()
+    message = "Hello Dosto"
+    print(message)
+
+
+if __name__ == "__main__":
+    test_message()
